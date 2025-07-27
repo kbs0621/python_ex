@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 
 name = '김철수'
