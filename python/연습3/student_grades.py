@@ -4,5 +4,8 @@ grades = students.values()
 
 mean_grades = sum(grades) / len(grades)
 
-print(f"학생 성적 : {students.keys()} : {students.values()}점")
+print("학생 성적 : ")
+for name, score in students.items():
+    print(f"{name} : {score}점")
+
 print(f"평균 점수 : {mean_grades}점")

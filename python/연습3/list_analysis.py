@@ -1,7 +1,5 @@
 number = [15,3,27,8,19,12,31]
 
-#for i in number:
-#    if i < number:
 max_value = max(number)
 min_value = min(number)
 
